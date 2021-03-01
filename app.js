@@ -195,7 +195,36 @@
 
 //PROGRAM 15
 
+// let arr = [2,3,5,"M Tariq",true];
 
+// console.log("Array elements",arr);
+
+
+
+//PROGRAM 16
+
+// let array = [1,2,3,4,5,6,7];
+
+// let res = array[0]+array[1]+array[2]+array[3]+array[4]+array[5]+array[6];
+// document.write(res);
+
+
+//PROGRAM 17
+
+// let array = [1,2,3,4,5,6,7,-4,-4,-3,-3,-1,-5];
+
+// for(let i=0;i<=array.length;i++){
+//     if(array[i]<0){
+//         console.log("Negative numbers are",array[i])
+//     }
+// }
+
+
+// let array = [1,2,3,4,5,6,7,8,9,10];
+
+// for(let i =0;i<=array.length;i++){
+//     if(array[i])
+// }
 
 
 
