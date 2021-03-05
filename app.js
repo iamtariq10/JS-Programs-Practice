@@ -219,12 +219,24 @@
 //     }
 // }
 
-
+// PROGRAM 18
 // let array = [1,2,3,4,5,6,7,8,9,10];
 
 // for(let i =0;i<=array.length;i++){
 //     if(array[i])
 // }
+
+
+//Exercise 1(codeWithHarry)
+console.log("Exercise 1");
+let web = document.links;
+
+Array.from(web).forEach(function(element){
+    let j = element.href;
+    if(j.includes("google")){
+        console.log("Link is",j);
+    }
+});
 
 
 
