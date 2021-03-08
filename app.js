@@ -228,15 +228,27 @@
 
 
 //Exercise 1(codeWithHarry)
-console.log("Exercise 1");
-let web = document.links;
+// console.log("Exercise 1");
+// let web = document.links;
 
-Array.from(web).forEach(function(element){
-    let j = element.href;
-    if(j.includes("google")){
-        console.log("Link is",j);
-    }
-});
+
+
+// Array.from(web).forEach(function(element){
+//     let j = element.href;
+//     if(j.includes("google")){
+//         console.log("Link is",j);
+//     }
+// });
+
+
+
+// Quiz (Code with Harry)
+
+let element = document.createElement('h1');
+let div = document.getElementById('anchor');
+element.innerHTML ="Go to google";
+
+anchor.appendChild(element);
 
 
 
