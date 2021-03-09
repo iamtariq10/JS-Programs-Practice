@@ -244,11 +244,24 @@
 
 // Quiz (Code with Harry)
 
-let element = document.createElement('h1');
-let div = document.getElementById('anchor');
-element.innerHTML ="Go to google";
+// let element = document.createElement('h1');
+// let div = document.getElementById('anchor');
+// element.innerHTML ="Go to google";
 
-anchor.appendChild(element);
+// anchor.appendChild(element);
+
+
+//Web Crawler 
+
+let string = "python";
+let links = document.links;
+let address;
+Array.from(links).forEach(function(element){
+    address = element.href;
+   if(address.includes("python")){
+       console.log("Links: ",address);
+   }
+});
 
 
 
