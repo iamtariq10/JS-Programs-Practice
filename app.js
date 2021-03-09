@@ -265,6 +265,39 @@ Array.from(links).forEach(function(element){
 
 
 
+//Local and Session Storage
+
+// localStorage.setItem('Name',"M Tariq")
+
+// localStorage.setItem("Roll",Number("4241"));
+
+// let roll = localStorage.getItem("Roll");
+
+// console.log(roll);
+
+
+// localStorage.clear();
+
+// let arr = ["M Tariq","Ahmad","Developers"];
+// localStorage.setItem('Info',JSON.stringify(arr));
+
+
+
+
+// sessionStorage.setItem('sessionName',"M Tariq")
+// sessionStorage.setItem("sessionRoll",Number("4241"));
+// sessionStorage.getItem('sessionName');
+
+
+// sessionStorage.clear();
+
+// let arr = ["M Tariq","Ahmad","Developers"];
+// sessionStorage.setItem('Info',arr);
+
+
+
+
+
 
 
 
