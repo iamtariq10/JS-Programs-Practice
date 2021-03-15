@@ -256,11 +256,11 @@
 let string = "python";
 let links = document.links;
 let address;
-Array.from(links).forEach(function(element){
+Array.from(links).forEach(function (element) {
     address = element.href;
-   if(address.includes("python")){
-       console.log("Links: ",address);
-   }
+    if (address.includes("python")) {
+        console.log("Links: ", address);
+    }
 });
 
 
@@ -306,27 +306,46 @@ Array.from(links).forEach(function(element){
 
 //Math Objects in JS
 
-let number = 3;
-let number2 = 4;
-let resulte;
-resulte = number*number2;
-console.log(resulte);
+// let number = 3;
+// let number2 = 4;
+// let resulte;
+// resulte = number*number2;
+// console.log(resulte);
 
 
-let mathematics = Math;
-console.log(mathematics);
+// let mathematics = Math;
+// console.log(mathematics);
 
-let z =Math.PI;
-z= Math.E;
-z= Math.ceil(5.4);
-z= Math.floor(4.3);
-z=Math.round(5.5);
-z= Math.sqrt(25);
-z=Math.pow(2,2);
-z=Math.random();
+// let z =Math.PI;
+// z= Math.E;
+// z= Math.ceil(5.4);
+// z= Math.floor(4.3);
+// z=Math.round(5.5);
+// z= Math.sqrt(25);
+// z=Math.pow(2,2);
+// z=Math.random();
 
-let ran = Math.ceil(50+(60-50)*z);
-console.log(ran);
+// let ran = Math.ceil(50+(60-50)*z);
+// console.log(ran);
 
 
+
+
+//Prototype in JS
+
+// String.prototype.includes = function () {
+//     console.log("this is Prototype");
+// }
+
+// let x = "abcd";
+
+// console.log(x.includes('b'));
+
+
+
+// Array.prototype.splice= function(){
+//     console.log("this is array prototype");
+// }
+let arr = "Ahmad Hassan";
+console.log( arr.split(" "));
 
